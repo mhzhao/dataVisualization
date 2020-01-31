@@ -3,7 +3,7 @@ const chart = new G2.Chart({
   container: 'container',
   forceFit: true,
   height: 500,
-  animate: false
+  // animate: false
 });
 chart.source(data, {
   time: {
