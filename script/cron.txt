@@ -1,0 +1,2 @@
+0 0-23/2 * * * cd /home/liyp/gitDocs/dataVisualization/script; sh auto_wuhan.sh
+# echo "run 23 minutes after midn, 2am, 4am ..., everyday"
