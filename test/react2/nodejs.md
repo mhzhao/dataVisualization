@@ -34,6 +34,8 @@ npm install
 npx audit fix
 
 export BROWSER=/usr/bin/google-chrome-stable
+
+npm install d3
 ```
 
 ## D3 and react
