@@ -19,4 +19,23 @@ it will install npm at the same time.
 
 
 - npm init react-app my-app
-- npm install will install packages depends on to directory node_modules. 
+- npm install will install packages depends on to directory node_modules.
+
+## manjaro install nvm
+
+```shell
+pacman -S nvm
+
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.bashrc
+echo 'source /usr/share/nvm/init-nvm.sh' >> ~/.zshrc
+
+nvm install 8/9/13
+npm install
+npx audit fix
+
+export BROWSER=/usr/bin/google-chrome-stable
+```
+
+## D3 and react
+
+https://blog.logrocket.com/data-visualization-in-react-using-react-d3-c35835af16d0/
