@@ -38,6 +38,20 @@ export BROWSER=/usr/bin/google-chrome-stable
 npm install d3
 ```
 
+## windows subsystem
+
+#### install
+https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+```
+#### set up
+https://gist.github.com/noygal/6b7b1796a92d70e24e35f94b53722219
+```shell
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```
+
 ## D3 and react
 
 https://blog.logrocket.com/data-visualization-in-react-using-react-d3-c35835af16d0/
