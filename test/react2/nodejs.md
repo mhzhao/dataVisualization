@@ -55,3 +55,6 @@ export NVM_DIR="$HOME/.nvm"
 ## D3 and react
 
 https://blog.logrocket.com/data-visualization-in-react-using-react-d3-c35835af16d0/
+
+## react tutorial 
+https://zh-hans.reactjs.org/tutorial/tutorial.html
